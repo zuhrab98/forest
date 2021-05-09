@@ -1,0 +1,57 @@
+@media (max-width: 599px) {
+    .inner-page-turs-header {
+        margin-bottom: 30px;
+    }
+
+    .main-header {
+        font-size: 28px;
+    }
+
+    .free-turs,
+    .extreme-turs {
+        width: 290px;
+        height: 290px;
+    }
+
+    .free-turs {
+        margin-bottom: 20px;
+    }
+
+    .card-box {
+        margin-bottom: 20px;
+    }
+
+    .card-column > * {
+        margin-bottom: 20px;
+    }
+
+    .card-column > * + * {
+        margin-top: 0;
+    }
+
+
+    .card-title-wrapper {
+        height: 50px;
+        padding: 0 15px;
+    }
+
+    .card-column .card-title-wrapper {
+        padding: 0 15px;
+    }
+
+    .card-jungle .card-title-wrapper {
+        padding: 0 20px;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+
+    .card-adventure,
+    .card-treking,
+    .card-jungle {
+        width: 288px;
+        height: 260px;
+    }
+
+}

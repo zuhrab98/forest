@@ -1,0 +1,93 @@
+
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card-box a{
+    text-decoration: none;
+    display: block;
+}
+
+.card-box:last-child{
+    margin-bottom: 0;
+}
+
+.free-turs{
+    transition: .2s ease-in;
+    width: 570px;
+    background-color:#A6A6A6;
+}
+
+.free-turs:hover{
+    transform: translateY(-15px);
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.5);
+}
+
+.card-title-wrapper {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #fff;
+
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 28px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.extreme-turs{
+    width: 570px;
+    transition: .2s ease-in;
+    background: #C1B19B;
+}
+
+.extreme-turs:hover{
+    transform: translateY(-15px);
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.5);
+}
+
+.card-column > * + *{  /* выбирает соседа с лева  */
+    margin-top: 30px;
+}
+
+.card-adventure{
+    width: 670px;
+    transition: .2s ease-in;
+    background: #66B0BE;
+}
+
+.card-adventure:hover{
+    transform: translateY(-15px);
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.5);
+}
+
+.card-treking{
+    width: 670px;
+    transition: .2s ease-in;
+    background: #876F56;
+}
+
+.card-treking:hover{
+    transform: translateY(-15px);
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.5);
+}
+
+.card-jungle{
+    width: 470px;
+    transition: .2s ease-in;
+    background: #27695E;
+}
+
+.card-jungle:hover{
+    transform: translateY(-15px);
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.5);
+}

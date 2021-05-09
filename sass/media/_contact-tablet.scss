@@ -1,0 +1,45 @@
+@media (max-width: 1199px) {
+    .contact-page {
+        padding: 40px 0 60px;
+    }
+
+    .contact-row {
+        flex-direction: column;
+
+    }
+
+    .contact-info {
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .contact-block-title {
+        margin-bottom: 25px;
+        font-size: 24px;
+    }
+
+    .contact-list,
+    .contact-list a  {
+        font-size: 18px;
+    }
+
+    .contact-block .contact-block-title{
+        margin-bottom: 20px;
+    }
+
+    .contact-block + .contact-block {
+        margin-top: 0;
+    }
+
+    iframe {
+        width: 420px;
+        height: 310px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,33 @@
+@media (max-width: 899px) {
+
+    .inner-page {
+        padding: 20px 0 60px;
+    }
+    .row-article-page{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .article{
+        width: 100%;
+        margin-bottom: 40px;
+        font-size: 16px;
+    }
+
+    .article h1{
+        font-size: 42px;
+    }
+
+    .article-img{
+        margin: 20px 0;
+    }
+
+    .article-page-nav{
+        width: 100%;
+    }
+
+    .article-page-nav-title{
+        margin-bottom: 20px;
+    }
+
+}

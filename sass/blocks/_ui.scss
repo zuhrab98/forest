@@ -1,0 +1,38 @@
+
+.ui .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ui{
+    padding: 40px;
+}
+
+.ui-header {
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.ui-header-2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+ul.ui-list{
+    font-size: 20px;
+    padding-left: 25px;
+    display: inline-block;
+}
+ul.ui-list li{
+    margin-bottom: 10px;
+    border-bottom: 2px solid #C0C0C0;
+    list-style-type: disc;
+}
+ul.ui-list a{
+    text-decoration: none;
+    color: rgb(24, 170, 180);
+}
+
+ul.ui-list a:hover{
+    color: rgb(0, 0, 0);
+}

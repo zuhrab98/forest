@@ -1,0 +1,30 @@
+@media (max-width: 899px) {
+    .contact-page {
+        padding: 40px 0;
+    }
+
+    .contacts-header {
+        margin-bottom: 30px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+    }
+
+    .contact-block {
+        margin-bottom: 40px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .form {
+        padding: 30px;
+    }
+
+    .form-group:last-of-type {
+        margin-bottom: 30px;
+    }
+
+}

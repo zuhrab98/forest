@@ -1,0 +1,33 @@
+// Base
+@import "./base/base";
+
+// blocks
+@import "./blocks/button";
+@import "./blocks/header";
+@import "./blocks/logo";
+@import "./blocks/main";
+@import "./blocks/footer";
+@import "./blocks/inner-page";
+@import "./blocks/card.scss";
+@import "./blocks/article-page";
+@import "./blocks/contact-page";
+@import "./blocks/form";
+@import "./blocks/radio";
+@import "./blocks/checkbox";
+@import "./blocks/ui";
+@import "./blocks/product";
+
+
+//Media
+@import "./media/tablet";
+@import "./media/main-mobile";
+@import "./media/main-mabile-xs";
+@import "./media/treking-tablet";
+@import "./media/treking-mobile";
+@import "./media/treking-mobile-xs";
+@import "./media/turs-tablet";
+@import "./media/turs-mobile";
+@import "./media/turs.mobile-xs";
+@import "./media/contact-tablet";
+@import "./media/contact-mobile";
+@import "./media/contact-mobile-xs";

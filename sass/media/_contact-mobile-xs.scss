@@ -1,0 +1,44 @@
+@media (max-width: 599px) {
+    .contact-block-title {
+        font-size: 20px;
+    }
+
+    .contact-block {
+        margin-bottom: 30px;
+    }
+
+    iframe {
+        height: 157px;
+    }
+
+    .form {
+        padding: 20px;
+    }
+
+    .form-title {
+        font-size: 24px;
+    }
+
+    .form-group-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .form-group-row {
+        flex-direction: column;
+    }
+
+    .form-group-row > .input + .input {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .form-group:last-of-type {
+        margin-bottom: 20px;
+    }
+
+}
